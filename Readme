@@ -1,0 +1,89 @@
+DATA ACCESS LAYER-
+    mekedi database ekata lagama layer eka.me layer eka anik layers walin abstrace wenna one.
+    query okkoma liyanne me layer eke.data access layers add karanen repositary widihata.
+        DbContex eka tinneth meke
+        BookRepository-Insert(Book)
+        projectName.data
+
+BUISSNESS LOGIC LAYER-
+    mekedi karanne crud operations aragena eka senarioes walata galapena widihata use karana 
+    eka thamai karanne.meka add karanne services widihata
+        BookService-addBookWithAuthor(Book)
+        projectName.buisness
+
+PRESENTATION LAYER-
+    mekedi wenne endpoint eka nathnam html css validation tika tinne meke.anti eka client validation 
+    karanneth me layer ekema thama.meka add karanne controllers widihata.
+        BookController GET/Authors
+        projectName.api
+
+----------------------------------------------------------------------------------------------------------
+
+INSFRASTRUCTOR LAYER
+    me hama layer ekatama podu ewa models loggings wage ewa wenawa layer ekakata danna one.ekata hadana 
+    layer eka thamai 
+    projectName.core
+
+
+DEPENDANCY LAYER
+    dependancy tika core library ekata danna baha mokada core ekata enne anith ewain eka paththakata
+    witharai DI ekath core ekata dammoth circular dependancy ekak enawa eka hinda eka wenama tiyanawa.
+
+    public void ConfigureServices(IServiceCollection services)
+    {
+    CompositionRoot.injectDependencies(services);
+    services.AddControllers();
+    }
+
+    CompositionRoot eke thamai DI okkoma liyala tinne.
+---------------------------------------------------------------------------------------------------------
+DATA FLOW 
+    presentation->buisness logic->data access
+----------------------------------------------------------------------------------------------------------
+
+DAL-data access layer
+    dotnet add package Microsoft.Extensions.Configuration.Json --version 3.1.3
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+
+BLL-buisness logic layer
+
+N-tier -meka webapp ekak
+
+-------------------------------------------------------------------------------------------------------
+REFERENCE HADAGANNA 
+    BLL ka DAL eken referece wenna one.BLL ekata yanna.
+    N-tier eka BLL ekata referece wenawa 
+
+    DALeke idan- dotnet add reference ..\BLL\
+    BLLeke idan-  dotnet sln add .\N-tier\
+-------------------------------------------------------------------------------------------------------
+CONNECTION STRING
+
+     "ConnectionStrings": {
+    "connection": "Server=(localdb)\\mssqllocaldb;Database=N-tierDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+    database name eka wenas karaganna puluwan. 
+
+---------------------------------------------------------------------------------------------------------
+connection string eka DAL ekata connect karanna one.eka DAL eke Appconfiguration eka hadala danawa.
+ekath ekka connect karana eka thamai karanne.
+      public AppConfiguration()
+        {
+            //configuration builder ekak use karanawa configuration eka hadaganna
+            var configBuilder=new ConfigurationBuilder();
+            // path ekata gihin appsetting eka hadaganna eka
+            var path=Path.Combine(Directory.GetCurrentDirectory(),"appsetting.json");
+            //path ekata gihin json file eka add karaganna eka
+            configBuilder.AddJsonFile(path,false);
+            //build karaganna eka
+            var root=configBuilder.Build();
+            //section ekak ganna eka connection string eke
+            var appsetting=root.GetSection("connection");
+            // eka prperty ekata add karaganna widiha
+            sqlConnectionString=appsetting.Value;
+        }
+        public string sqlConnectionString { get; set; }
+
+        
+
+

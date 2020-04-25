@@ -1,0 +1,8 @@
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\bin\Debug\netstandard2.0\BLL.dll
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\bin\Debug\netstandard2.0\BLL.pdb
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\obj\Debug\netstandard2.0\BLL.dll
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\BLL\obj\Debug\netstandard2.0\BLL.pdb
