@@ -1,5 +1,5 @@
 {
-  "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\N-tier.csproj",
+  "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\N-tier.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,38 +20521,38 @@
   "RootNamespace": "N_tier",
   "Documents": [
     {
-      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\N-tier\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\N-tier\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

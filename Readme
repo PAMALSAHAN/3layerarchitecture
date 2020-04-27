@@ -84,6 +84,41 @@ ekath ekka connect karana eka thamai karanne.
         }
         public string sqlConnectionString { get; set; }
 
-        
+--------------------------------------------------------------------------------------------------------
+Db context eka hadanna one.habai DB eka connet karanna one ekata DbContex class ekak hadala ekata
+db eka connect karana eka karanna one.
+    class builder kiyala db context eke hadala eke athule 
+        DbContexOptionBuilder<DbContex> 
+        DbContexOption<DbContex> 
+        AppConfiguration eke private property ekak hadagannawa
+    ita passe karanne Appconfiguration connection string eka aran DbContexOptionBuilder eken
+    data base eka thorala eke athulata ConnectionStrings eka denawa.
+    DbContexOption ekata DbContexOptionBuilder.option kiyala danawa.
+
+     public class OptionBuilder
+        {
+            //ctor
+            public OptionBuilder()
+            {
+                //connection string eka ganna 
+                appConfiguration=new AppConfiguration();
+                optionsBuilder=new DbContextOptionsBuilder<DatabaseContext>();
+                optionsBuilder.UseSqlServer(appConfiguration.sqlConnectionString);
+                dbContextOptions=optionsBuilder.Options;
+            }
+            public DbContextOptionsBuilder<DatabaseContext> optionsBuilder{get;set;}
+            //meken thamai database ekath ekka connection eka hadaganne
+
+            public DbContextOptions<DatabaseContext> dbContextOptions { get; set; }
+            // meka use karanne mona db configuration ekada karanne kiyala
+
+            private AppConfiguration appConfiguration { get; set; }
+            //meka thamai connection string eka ganne
+            
+        }
+-------------------------------------------------------------------------------------------------------
+DatabaseContext eka haduwa dan hadanna one DatabaseContextFactory eka mokada mona DatabaseContext 
+ekada use karanne kiyala karanna one  
+ekada use karanne kiyala karanna one  
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\DAL\\DAL.csproj": {}
+    "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "F:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\DAL\\DAL.csproj": {
+    "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\DAL\\DAL.csproj",
+        "projectUniqueName": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "F:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\DAL\\DAL.csproj",
+        "projectPath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Chamath\\.nuget\\packages\\",
-        "outputPath": "F:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3LayerArchitec\\DAL\\obj\\",
+        "outputPath": "f:\\pamal\\pamal\\udemy\\.netDesignPatterns\\work\\3layerarchitecture\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
