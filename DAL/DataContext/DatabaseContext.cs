@@ -1,3 +1,4 @@
+﻿using DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL.DataContext
@@ -26,10 +27,12 @@ namespace DAL.DataContext
         }
 
         
-            
+        public static OptionBuilder opbuild =new OptionBuilder();   
         public DatabaseContext (DbContextOptions<DatabaseContext> options) : base (options) { }
-                
-            
+        public DbSet<User> usertbl { get; set; }
+        public DbSet<AuthenticationLevel> Authtbl { get; set; }
+
+        
         
     }
 }

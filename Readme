@@ -119,6 +119,26 @@ db eka connect karana eka karanna one.
 -------------------------------------------------------------------------------------------------------
 DatabaseContext eka haduwa dan hadanna one DatabaseContextFactory eka mokada mona DatabaseContext 
 ekada use karanne kiyala karanna one  
-ekada use karanne kiyala karanna one  
+ekada use karanne kiyala karanna one 
+     public class DatabaseContextFactory :IDesignTimeDbContextFactory<DatabaseContext>
+    {
+        public DatabaseContext  CreateDbContext(string[] args)
+        {
+            AppConfiguration appConfiguration =new AppConfiguration();
+            var OpsBuilder=new DbContextOptionsBuilder<DatabaseContext>();
+            OpsBuilder.UseSqlServer(appConfiguration.sqlConnectionString);
+            return new DatabaseContext(OpsBuilder.Options);
+        
+        }   
+    }
+
+----------------------------------------------------------------------------------------------------------
+referece eka daganna
+soution 3 ma->N-tier ->BLL->DAL
+-----------------------------------------------------------------------------------------------------
+mekedi ef migrations karanna one DAL eke idan anek ewa idan karama 
+api statup ekedi services ekak widihata register karanne nathi hinda pennanne naha.
+eka hinda DAL eke idalama migrations eka danna one.
+
 
 

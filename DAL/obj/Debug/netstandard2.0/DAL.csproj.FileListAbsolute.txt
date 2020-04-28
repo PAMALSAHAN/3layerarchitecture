@@ -6,3 +6,11 @@ F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\DAL\obj\Debug\netsta
 F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
 F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\DAL\obj\Debug\netstandard2.0\DAL.dll
 F:\pamal\pamal\udemy\.netDesignPatterns\work\3LayerArchitec\DAL\obj\Debug\netstandard2.0\DAL.pdb
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\bin\Debug\netstandard2.0\DAL.dll
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\bin\Debug\netstandard2.0\DAL.pdb
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\obj\Debug\netstandard2.0\DAL.dll
+F:\pamal\pamal\udemy\.netDesignPatterns\work\3layerarchitecture\DAL\obj\Debug\netstandard2.0\DAL.pdb

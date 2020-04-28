@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <!-- <ProjectReference Include="BLL.csproj" /> -->
+    <ProjectReference Include="..\DAL\DAL.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
